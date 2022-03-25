@@ -24,6 +24,10 @@ footer {
     border-style: solid;
 }
 
+.card > p {
+    text-align: center;
+}
+
 .snippets {
     flex: 1;
     padding: 50px;
