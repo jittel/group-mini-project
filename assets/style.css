@@ -13,7 +13,6 @@ footer {
 }
 
 .card {
-    /* card styling here */
     border-style: dashed;
     border-radius: 5px;
     border-width: 3px;
@@ -26,6 +25,7 @@ footer {
 
 .card > p {
     text-align: center;
+    background-color: chartreuse;
 }
 
 .snippets {
