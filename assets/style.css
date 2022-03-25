@@ -1,3 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+footer {
+    width: 100%;
+    background-color: forestgreen;
+    margin-top: auto;
+    height: 30px;
+    text-align: center;
+}
+
 .card {
     /* card styling here */
+    border-style: dashed;
+    border-radius: 5px;
+    border-width: 3px;
 }
+
+.card > header {
+    border-radius: 5px 5px 0px 0px;
+    border-style: solid;
+}
+
+.snippets {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
